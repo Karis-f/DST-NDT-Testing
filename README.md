@@ -18,12 +18,12 @@ Destructive testing is carried out under the most rigorous operating conditions 
 This type of testing shares similarities with Monkey Testing, Ad hoc Testing, and Exploratory Testing.
 
 Benefits of Destructive Software Testing
+-It helps to gauge the robustness, recoverability, and lifespan of the application.
+-Reveals the points of failure in case of inappropriate or misuse of the software.
+-It sets the right context for the tester as it ignores the biases of user stories in testing.
+-It enables us to uncover software defects that are generally not encountered by average users.
+-This type of testing is unique in discovering flaws in the application that when addressed will promote the rank of the software to novice proof status.
 
-It helps to gauge robustness, recoverability, and lifespan of the application.
-Reveals the points of failure in case of inappropriate or misuse of the software.
-It sets the right context for the tester as it ignores the biases of user stories in testing.
-It enables us to uncover software defects that are generally not encountered by average users.
-This type of testing is unique in discovering flaws in the application that when addressed will promote the rank of the software to novice proof status.
 Steps to Perform This Testing
 At the beginning of the destructive software testing cycle, the client sends an application copy or access credentials, and user requirements.
 The client then presents the requirements and demonstrates the application to a QA analyst.
@@ -66,22 +66,24 @@ You can also use any other sources or ways to break the system and analyze for d
 Destructive Testing Techniques
 Destructive software testing can be conducted through various techniques like:
 
-Acceptance testing
-Loop testing
-Regression testing
-Equivalence partitioning
-Boundary value testing
-Interface testing
-Alpha/Beta testing
-System testing
-Top-down testing
-Black box testing
+-Acceptance testing 
+-Loop testing
+-Regression testing
+-Equivalence partitioning
+-Boundary value testing
+-Interface testing
+-Alpha/Beta testing
+-System testing
+-Top-down testing
+-Black box testing
+
 Few Useful Tips for Destructive Software Testing
-Gain as much knowledge of the product as you can. Put yourself into the shoes of the customer and then think about the product from his perspective.
-Erase all the biased information from the user story. Forget about the user story description and acceptance criteria and try to break the application like a crazy customer.
-Look for the exception paths, not the happy paths. Keep in mind that by ignoring the acceptance criteria, you will not know the expected or normal workflow.
-Don’t expect a positive response from your application. What if something fails? Try to simulate and corrupt everything you can.
-Curb your network conditions to a more realistic setup, because all the real users won’t be having top-class machines and network conditions.
+-Gain as much knowledge of the product as you can. Put yourself into the shoes of the customer and then think about the product from his perspective.
+-Erase all the biased information from the user story. Forget about the user story description and acceptance criteria and try to break the application like a crazy customer.
+-Look for the exception paths, not the happy paths. Keep in mind that by ignoring the acceptance criteria, you will not know the expected or normal workflow.
+-Don’t expect a positive response from your application. What if something fails? Try to simulate and corrupt everything you can.
+-Curb your network conditions to a more realistic setup, because all the real users won’t be having top-class machines and network conditions.
+
 What Is Non-Destructive Testing And What Are Its Benefits?
 Non-Destructive Testing (NDT) is described as a software assessment technique that entails interacting with software correctly. Unlike destructive software testing where we look for exception paths, in non-destructive testing, we look for happy paths or golden paths. NDT is also known as positive testing.
 
@@ -92,20 +94,20 @@ Non-Destructive Test Example
 In NDT, we have a well-defined test case using a known requirement, which executes without any error or exceptions and produces the desired output. It gives the expected results and verifies that the software is working as expected.
 
 Benefits of  Non-Destructive Software Testing
+-Improved software quality and issues get fixed in the main flow of the application.
+-Useful in demonstrating that the software application is working as per the required specifications.
+-Verifies that the customer's expectations are met.
+-Ensures that the performance requirements are met.
+-Saves both time and money in product evaluation and troubleshooting.
 
-Improved software quality and issues get fixed in the main flow of the application.
-Useful in demonstrating that the software application is working as per the required specifications.
-Verifies that the customer expectations are met.
-Ensures that the performance requirements are met.
-Saves both time and money in product evaluation and troubleshooting.
 When to Perform This Testing
-It should be the first form of testing and needs to be done at the initial stage of SDLC because the happy path is the main flow of the application and if it does not work well then the rest of the testing gets blocked.
-It can be quickly and easily done when we don’t have enough time and budget for testing. This at least ensures that software requirements and acceptance criteria are met.
-Strategy for Non-Destructive Software Testing
-The positive testing approach should be adopted to conduct the non-destructive test.
-While doing the testing, the tester should keep in mind that the objective of the non-destructive test is to verify that the application will work fine on giving valid input data. So, the aim is to verify the application behavior for the positive set of data.
-The best practice is to check whether the system is doing what it is intended to do.
+-It should be the first form of testing and needs to be done at the initial stage of SDLC because the happy path is the main flow of the application and if it does not work well then the rest of the testing gets blocked.
+-It can be quickly and easily done when we don’t have enough time and budget for testing. This at least ensures that software requirements and acceptance criteria are met.
 
+Strategy for Non-Destructive Software Testing
+-The positive testing approach should be adopted to conduct the non-destructive test.
+-While doing the testing, the tester should keep in mind that the objective of the non-destructive test is to verify that the application will work fine on giving valid input data. So, the aim is to verify the application behavior for the positive set of data.
+-The best practice is to check whether the system is doing what it is intended to do.
 
 Conclusion
 In destructive testing, the application is intentionally made to crash to examine the robustness of the application. It detects the points of failure in the software that may occur due to improper handling of the application by the customer.
