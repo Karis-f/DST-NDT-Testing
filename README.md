@@ -1,4 +1,4 @@
-# DST-NDT
+# DST-NDT Testing
 This article, to learn details about destructive testing and non-destructive software testing. also see the differences between these two testing types.
 
 
